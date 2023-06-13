@@ -43,6 +43,21 @@ def get_downloads_dry(pkg: str, interval: int = 30) -> int:
     raise RuntimeError(f"failed to get data of {pkg!r}")
 
 
+def get_latest_upload_time(pkg: str):
+    results = client.query(
+        f"""
+        SELECT MAX(upload_time) AS upload_time
+        FROM `bigquery-public-data.pypi.distribution_metadata`
+        WHERE name = {pkg!r}
+        """
+    ).result()
+
+    for row in results:
+        return row["upload_time"]
+    
+    raise RuntimeError(f"failed to get data of {pkg!r}")
+
+
 def get_plugin_list() -> list[str]:
     return [x["project_link"] for x in data]
 
