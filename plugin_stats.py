@@ -71,10 +71,8 @@ def get_and_store(pkg: str):
 
 with ThreadPoolExecutor(max_workers=8) as exc:
     tasks = [exc.submit(get_and_store, pkg) for pkg in get_plugin_list()]
-    co = 0
     for _ in as_completed(tasks):
-        co += 1
-        print(f"=== {co}/{len(data)} done")
+        pass
 
 
 downloads.sort(key=lambda x: x[1], reverse=True)
