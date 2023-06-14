@@ -65,14 +65,14 @@ def get_plugin_list() -> list[str]:
 downloads: list[tuple[str, int]] = []
 
 
-def get_and_store(pkg: str):
-    downloads.append((pkg, get_downloads_dry(pkg)))
+def get_data(pkg: str):
+    return pkg, get_downloads_dry(pkg)
 
 
 with ThreadPoolExecutor(max_workers=8) as exc:
-    tasks = [exc.submit(get_and_store, pkg) for pkg in get_plugin_list()]
-    for _ in as_completed(tasks):
-        pass
+    tasks = [exc.submit(get_data, pkg) for pkg in get_plugin_list()]
+    for tsk in as_completed(tasks):
+        downloads.append(tsk.result())
 
 
 downloads.sort(key=lambda x: x[1], reverse=True)
