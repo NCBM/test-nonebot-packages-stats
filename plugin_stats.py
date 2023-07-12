@@ -1,6 +1,7 @@
 from datetime import datetime
 import json
 import sys
+from time import time
 from typing import Literal, cast
 from google.cloud import bigquery
 import requests
@@ -89,6 +90,13 @@ def get_latest_upload_time():
         results[package_name]["lastup"] = int(cast("datetime", upload_time).timestamp())
 
 
+gtime = time()
+
+
+def get_ranking_key(name: str, stat: dict[{"down7": int, "down30": int, "lastup": int}]):
+    return 500 * (cast(float, stat["down7"] ** 1.35) + stat["down30"]) / min(24 * 60 * 60, gtime - stat["lastup"]), name
+
+
 try:
     for n in (7, 30):
         get_downloads(n)
@@ -97,4 +105,18 @@ try:
     with open("statistics.json", "w") as f:
         json.dump(results, f, indent=4)
 finally:
-    print(json.dumps(results, indent=4))
+    sorted_res = sorted(
+        results.items(),
+        key=lambda x: get_ranking_key(*x),
+        reverse=True
+    )
+    print(
+        "{n:<42}{d7:>8}{d30:>8}  {u:<22} {rk:>10}".format(
+            n="Name", d7="7day", d30="30day", u="Last Update", rk="Ranking"
+        )
+    )
+    for n, d in sorted_res:
+        d7, d30 = d["down7"], d["down30"]
+        rk = get_ranking_key(n, d)[0]
+        u = datetime.fromtimestamp(d["lastup"]).isoformat()
+        print(f"{n:<42}{d7:8}{d30:8}  {u:<22} {rk:10.5}")
