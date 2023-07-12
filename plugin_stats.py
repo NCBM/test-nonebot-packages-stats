@@ -27,7 +27,7 @@ else:
     print("=== Downloaded plugins list")
 
     # Define the target packages and time interval
-    target_packages = [x["project_link"] for x in data]
+    target_packages = [x["project_link"].replace("_", "-") for x in data]
 
 results: dict[str, dict[{"down7": int, "down30": int, "lastup": int}]] = {
     pkg: {"down7": 0, "down30": 0, "lastup": 0} for pkg in target_packages
