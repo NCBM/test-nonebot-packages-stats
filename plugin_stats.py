@@ -28,12 +28,12 @@ else:
     print("=== Downloaded plugins list")
 
     # Define the target packages and time interval
-    target_packages = [x["project_link"] for x in data]
+    target_packages = [x["project_link"].replace("_", "-") for x in data]
 
 
 def standname(name: str):
     """Convert name to valid PyPI name"""
-    return name.replace("_", "-").lower()
+    return name.lower()
 
 
 results: dict[str, dict[{"down7": int, "down30": int, "lastup": int}]] = {
