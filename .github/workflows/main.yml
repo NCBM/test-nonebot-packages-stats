@@ -1,6 +1,9 @@
 name: Test Get Data
 
-on: [workflow_dispatch]
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 18 * * *'
 
 jobs:
   getdata:
