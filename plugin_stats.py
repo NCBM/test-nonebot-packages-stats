@@ -28,10 +28,16 @@ else:
     print("=== Downloaded plugins list")
 
     # Define the target packages and time interval
-    target_packages = [x["project_link"].replace("_", "-") for x in data]
+    target_packages = [x["project_link"] for x in data]
+
+
+def standname(name: str):
+    """Convert name to valid PyPI name"""
+    return name.replace("_", "-").lower()
+
 
 results: dict[str, dict[{"down7": int, "down30": int, "lastup": int}]] = {
-    pkg: {"down7": 0, "down30": 0, "lastup": 0} for pkg in target_packages
+    standname(pkg): {"down7": 0, "down30": 0, "lastup": 0} for pkg in target_packages
 }
 
 # Set up BigQuery client
@@ -52,7 +58,11 @@ def get_downloads(interval: Literal[7, 30] = 30) -> None:
 
     # Define the query parameters
     query_params = [
-        bigquery.ArrayQueryParameter("target_packages", "STRING", target_packages),
+        bigquery.ArrayQueryParameter(
+            "target_packages", "STRING", 
+            [standname(x) for x in target_packages]
+            # here needs to input standard name
+        ),
         bigquery.ScalarQueryParameter("interval", "INT64", interval),
     ]
 
@@ -85,7 +95,8 @@ def get_latest_upload_time():
     )
 
     for row in qjob:
-        package_name = row['name']
+        package_name = standname(row['name'])
+        # here needs to output standard name
         upload_time = row['upload_time']
         results[package_name]["lastup"] = int(cast("datetime", upload_time).timestamp())
 
