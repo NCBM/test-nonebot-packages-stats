@@ -105,7 +105,7 @@ gtime = time()
 
 
 def get_ranking_key(name: str, stat: dict[{"down7": int, "down30": int, "lastup": int}]):
-    return 500 * (cast(float, stat["down7"] ** 1.35) + stat["down30"]) / max(24 * 60 * 60, gtime - stat["lastup"]), name
+    return 10000 * (cast(float, stat["down7"] ** 1.45) + stat["down30"]) / max(24 * 60 * 60, gtime - stat["lastup"]), name
 
 
 try:
