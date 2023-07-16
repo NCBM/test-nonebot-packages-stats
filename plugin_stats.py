@@ -49,7 +49,7 @@ def get_downloads(interval: Literal[7, 30] = 30) -> None:
     query = """
     SELECT file.project AS package_name, COUNT(*) AS num_downloads
     FROM `bigquery-public-data.pypi.file_downloads`
-    WHERE details.installer.name = 'pip'
+    WHERE details.installer.name != 'null'
         AND details.python != 'null'
         AND DATE(timestamp) BETWEEN DATE_SUB(CURRENT_DATE(), INTERVAL @interval DAY) AND CURRENT_DATE()
         AND file.project IN UNNEST(@target_packages)
@@ -105,7 +105,7 @@ gtime = time()
 
 
 def get_ranking_key(name: str, stat: dict[{"down7": int, "down30": int, "lastup": int}]):
-    return 10000 * (cast(float, stat["down7"] ** 1.45) + stat["down30"]) / max(24 * 60 * 60, gtime - stat["lastup"]), name
+    return 10000 * (cast(float, stat["down7"] ** 1.45) + stat["down30"]) / max(72 * 60 * 60, gtime - stat["lastup"]), name
 
 
 try:
