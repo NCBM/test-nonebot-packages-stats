@@ -31,6 +31,7 @@ jobs:
       with:
         commit_message: 'chore: update statistics.json'
         file_pattern: 'statistics.json'
+        commit_author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
