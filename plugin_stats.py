@@ -1,23 +1,31 @@
-from datetime import datetime
 import json
 import sys
+from datetime import datetime
 from time import time
-from typing import Literal, cast
-from google.cloud import bigquery
-import requests
+from typing import Literal, TypedDict, cast
 
-NoneBotPluginMeta = dict[
-    {
-        "module_name": str,
-        "project_link": str,
-        "name": str,
-        "desc": str,
-        "author": str,
-        "homepage": str,
-        "tags": list[dict[{"label": str, "color": str}]],
-        "is_official": bool
-    }
-]
+import requests
+from google.cloud import bigquery
+
+
+class PluginTag(TypedDict):
+    label: str
+    color: str
+
+class NoneBotPluginMeta(TypedDict):
+    module_name: str
+    project_link: str
+    name: str
+    desc: str
+    author: str
+    homepage: str
+    tags: list[PluginTag]
+    is_official: bool
+
+class PackageResult(TypedDict):
+    down7: int
+    down30: int
+    lastup: int
 
 if sys.argv[1:]:
     print("*** Use local test list...")
@@ -36,7 +44,7 @@ def standname(name: str):
     return name.lower()
 
 
-results: dict[str, dict[{"down7": int, "down30": int, "lastup": int}]] = {
+results: dict[str, PackageResult] = {
     standname(pkg): {"down7": 0, "down30": 0, "lastup": 0} for pkg in target_packages
 }
 
@@ -78,33 +86,17 @@ def get_downloads(interval: Literal[7, 30] = 30) -> None:
 
 
 def get_latest_upload_time():
-    # Define the query parameters
-    query_params = [
-        bigquery.ArrayQueryParameter("target_packages", "STRING", target_packages)
-    ]
-    # Run the query with parameters
-    job_config = bigquery.QueryJobConfig(query_parameters=query_params)
-
-    qjob = client.query(
-        """
-        SELECT name, MAX(upload_time) AS upload_time
-        FROM `bigquery-public-data.pypi.distribution_metadata`
-        WHERE name IN UNNEST(@target_packages)
-        GROUP BY name
-        """, job_config=job_config
-    )
-
-    for row in qjob:
-        package_name = standname(row['name'])
+    for name in results:
+        res = requests.get(f"https://pypi.org/pypi/{name}/json")
         # here needs to output standard name
-        upload_time = row['upload_time']
-        results[package_name]["lastup"] = int(cast("datetime", upload_time).timestamp())
+        upload_time = max(t["upload_time"] for t in res.json()["urls"])
+        results[name]["lastup"] = int(datetime.fromisoformat(upload_time).timestamp())
 
 
 gtime = time()
 
 
-def get_ranking_key(name: str, stat: dict[{"down7": int, "down30": int, "lastup": int}]):
+def get_ranking_key(name: str, stat: PackageResult):
     return 10000 * (cast(float, stat["down7"] ** 1.45) + stat["down30"]) / max(72 * 60 * 60, gtime - stat["lastup"]), name
 
 
