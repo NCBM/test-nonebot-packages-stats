@@ -89,8 +89,11 @@ def get_latest_upload_time():
     for name in results:
         res = requests.get(f"https://pypi.org/pypi/{name}/json")
         # here needs to output standard name
-        upload_time = max(t["upload_time"] for t in res.json()["urls"])
-        results[name]["lastup"] = int(datetime.fromisoformat(upload_time).timestamp())
+        try:
+            upload_time = max(t["upload_time"] for t in res.json()["urls"])
+            results[name]["lastup"] = int(datetime.fromisoformat(upload_time).timestamp())
+        except KeyError:
+            print(f"[WARN] Cannot get upload time of {name}")
 
 
 gtime = time()
