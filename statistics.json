@@ -1,11 +1,11 @@
 {
     "nonebot-plugin-status": {
-        "down7": 44,
-        "down30": 378,
+        "down7": 54,
+        "down30": 388,
         "lastup": 1725355260
     },
     "haruka-bot": {
-        "down7": 6,
+        "down7": 8,
         "down30": 71,
         "lastup": 1689067500
     },
@@ -15,28 +15,28 @@
         "lastup": 1689643556
     },
     "nonebot-plugin-docs": {
-        "down7": 6,
-        "down30": 46,
+        "down7": 7,
+        "down30": 47,
         "lastup": 1754561755
     },
     "nonebot-plugin-sentry": {
-        "down7": 17,
-        "down30": 439,
+        "down7": 21,
+        "down30": 441,
         "lastup": 1714988181
     },
     "nonebot-plugin-apscheduler": {
-        "down7": 1332,
-        "down30": 6997,
+        "down7": 1414,
+        "down30": 7024,
         "lastup": 1719580630
     },
     "nonebot-plugin-picsearcher": {
-        "down7": 1,
+        "down7": 0,
         "down30": 18,
         "lastup": 1667632895
     },
     "nonebot-plugin-navicat": {
-        "down7": 0,
-        "down30": 2,
+        "down7": 2,
+        "down30": 4,
         "lastup": 1726906161
     },
     "nonebot-plugin-translator": {
@@ -50,8 +50,8 @@
         "lastup": 1694016377
     },
     "nonebot-plugin-songpicker2": {
-        "down7": 5,
-        "down30": 32,
+        "down7": 6,
+        "down30": 33,
         "lastup": 1687857850
     },
     "nonebot-plugin-strman": {
@@ -60,18 +60,18 @@
         "lastup": 1665421474
     },
     "nonebot-bison": {
-        "down7": 46,
-        "down30": 346,
+        "down7": 50,
+        "down30": 348,
         "lastup": 1749053451
     },
     "nonebot-plugin-ncm": {
-        "down7": 0,
-        "down30": 8,
+        "down7": 2,
+        "down30": 10,
         "lastup": 1736994978
     },
     "nonebot-plugin-cocdicer": {
-        "down7": 2,
-        "down30": 9,
+        "down7": 4,
+        "down30": 10,
         "lastup": 1658998784
     },
     "nonebot-plugin-guess": {
@@ -90,28 +90,28 @@
         "lastup": 1727408125
     },
     "nonebot-plugin-analysis-bilibili": {
-        "down7": 22,
-        "down30": 360,
+        "down7": 30,
+        "down30": 367,
         "lastup": 1733821556
     },
     "nonebot-plugin-localstore": {
-        "down7": 1873,
-        "down30": 10046,
+        "down7": 1826,
+        "down30": 10094,
         "lastup": 1740833644
     },
     "nonebot-plugin-alconna": {
-        "down7": 1701,
-        "down30": 12128,
+        "down7": 1456,
+        "down30": 12135,
         "lastup": 1754464416
     },
     "nonebot-plugin-mcstatus": {
-        "down7": 3,
-        "down30": 11,
+        "down7": 6,
+        "down30": 15,
         "lastup": 1685777426
     },
     "nonebot-plugin-help": {
-        "down7": 16,
-        "down30": 23,
+        "down7": 15,
+        "down30": 25,
         "lastup": 1691756519
     },
     "nonebot-plugin-alias": {
@@ -120,12 +120,12 @@
         "lastup": 1725627584
     },
     "nonebot-plugin-withdraw": {
-        "down7": 11,
-        "down30": 47,
+        "down7": 9,
+        "down30": 41,
         "lastup": 1733235573
     },
     "nonebot-plugin-pixivrank-search": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1645178000
     },
@@ -135,8 +135,8 @@
         "lastup": 1674320550
     },
     "nonebot-plugin-setu": {
-        "down7": 0,
-        "down30": 9,
+        "down7": 2,
+        "down30": 11,
         "lastup": 1679578066
     },
     "nonebot-plugin-heweather": {
@@ -145,7 +145,7 @@
         "lastup": 1743787913
     },
     "nonebot-plugin-autohelp": {
-        "down7": 4,
+        "down7": 2,
         "down30": 10,
         "lastup": 1665852237
     },
@@ -156,12 +156,12 @@
     },
     "nonebot-plugin-epicfree": {
         "down7": 4,
-        "down30": 23,
+        "down30": 21,
         "lastup": 1698652637
     },
     "elf-rss": {
         "down7": 2,
-        "down30": 45,
+        "down30": 6,
         "lastup": 1726466622
     },
     "nb2chan": {
@@ -170,7 +170,7 @@
         "lastup": 1645345298
     },
     "nonebot-plugin-setu-now": {
-        "down7": 15,
+        "down7": 13,
         "down30": 83,
         "lastup": 1733281770
     },
@@ -190,7 +190,7 @@
         "lastup": 1733294109
     },
     "nonebot-plugin-code": {
-        "down7": 2,
+        "down7": 1,
         "down30": 11,
         "lastup": 1724256565
     },
@@ -215,18 +215,18 @@
         "lastup": 1723389100
     },
     "nonebot-plugin-htmlrender": {
-        "down7": 426,
-        "down30": 2714,
+        "down7": 372,
+        "down30": 2666,
         "lastup": 1755574869
     },
     "nonebot-plugin-admin": {
-        "down7": 7,
-        "down30": 46,
+        "down7": 11,
+        "down30": 50,
         "lastup": 1735821819
     },
     "nonebot-plugin-memes": {
-        "down7": 65,
-        "down30": 524,
+        "down7": 58,
+        "down30": 530,
         "lastup": 1744714451
     },
     "nonebot-plugin-repeater": {
@@ -245,8 +245,8 @@
         "lastup": 1671777010
     },
     "nonebot-plugin-roll": {
-        "down7": 1,
-        "down30": 22,
+        "down7": 0,
+        "down30": 20,
         "lastup": 1697594623
     },
     "nonebot-plugin-crazy-thursday": {
@@ -261,26 +261,26 @@
     },
     "nonebot-plugin-remake": {
         "down7": 3,
-        "down30": 56,
+        "down30": 58,
         "lastup": 1731682708
     },
     "nonebot-plugin-weather-lite": {
-        "down7": 0,
-        "down30": 0,
+        "down7": 3,
+        "down30": 3,
         "lastup": 1642649677
     },
     "nonebot-plugin-fortune": {
-        "down7": 2,
-        "down30": 50,
+        "down7": 1,
+        "down30": 47,
         "lastup": 1689432181
     },
     "nonebot-plugin-tarot": {
-        "down7": 1,
+        "down7": 0,
         "down30": 12,
         "lastup": 1680008184
     },
     "nonebot-plugin-emojimix": {
-        "down7": 9,
+        "down7": 5,
         "down30": 114,
         "lastup": 1733232351
     },
@@ -290,23 +290,23 @@
         "lastup": 1680436527
     },
     "nonebot-plugin-datastore": {
-        "down7": 156,
-        "down30": 1693,
+        "down7": 136,
+        "down30": 1661,
         "lastup": 1755097399
     },
     "nonebot-plugin-boardgame": {
-        "down7": 2,
+        "down7": 0,
         "down30": 15,
         "lastup": 1733220748
     },
     "nonebot-plugin-wordcloud": {
-        "down7": 37,
-        "down30": 437,
+        "down7": 47,
+        "down30": 443,
         "lastup": 1736829631
     },
     "nonebot-plugin-chatrecorder": {
-        "down7": 42,
-        "down30": 675,
+        "down7": 49,
+        "down30": 681,
         "lastup": 1734606047
     },
     "nonebot-plugin-antiflash": {
@@ -320,8 +320,8 @@
         "lastup": 1736409317
     },
     "nonebot-plugin-txt2img": {
-        "down7": 4,
-        "down30": 16,
+        "down7": 6,
+        "down30": 18,
         "lastup": 1708579545
     },
     "nonebot-plugin-morning": {
@@ -350,8 +350,8 @@
         "lastup": 1648885503
     },
     "nonebot-plugin-fire": {
-        "down7": 2,
-        "down30": 4,
+        "down7": 4,
+        "down30": 6,
         "lastup": 1648812818
     },
     "nonebot-plugin-qrcode": {
@@ -386,7 +386,7 @@
     },
     "nonebot-plugin-ddcheck": {
         "down7": 2,
-        "down30": 43,
+        "down30": 41,
         "lastup": 1733293886
     },
     "nonebot-plugin-leetcode2": {
@@ -400,7 +400,7 @@
         "lastup": 1749872464
     },
     "nonebot-plugin-wordle": {
-        "down7": 1,
+        "down7": 0,
         "down30": 19,
         "lastup": 1734937363
     },
@@ -420,8 +420,8 @@
         "lastup": 1648443367
     },
     "nonebot-plugin-handle": {
-        "down7": 1,
-        "down30": 16,
+        "down7": 0,
+        "down30": 12,
         "lastup": 1734937437
     },
     "nonebot-plugin-minesweeper": {
@@ -491,12 +491,12 @@
     },
     "nonebot-plugin-maze": {
         "down7": 0,
-        "down30": 1,
+        "down30": 0,
         "lastup": 1671867451
     },
     "nonebot-plugin-moyu": {
         "down7": 2,
-        "down30": 4,
+        "down30": 2,
         "lastup": 1733222584
     },
     "nonebot-plugin-mockingbird": {
@@ -510,8 +510,8 @@
         "lastup": 1680573766
     },
     "nonebot-plugin-tortoise-orm": {
-        "down7": 39,
-        "down30": 177,
+        "down7": 41,
+        "down30": 183,
         "lastup": 1720507296
     },
     "nonebot-plugin-dailysign": {
@@ -530,8 +530,8 @@
         "lastup": 1685481713
     },
     "nonebot-plugin-imagetools": {
-        "down7": 25,
-        "down30": 113,
+        "down7": 18,
+        "down30": 115,
         "lastup": 1732190380
     },
     "nonebot-plugin-warframe-clock": {
@@ -545,7 +545,7 @@
         "lastup": 1733079199
     },
     "nonebot-plugin-who-at-me": {
-        "down7": 1,
+        "down7": 0,
         "down30": 9,
         "lastup": 1715073117
     },
@@ -561,7 +561,7 @@
     },
     "nonebot-plugin-setu4": {
         "down7": 0,
-        "down30": 9,
+        "down30": 7,
         "lastup": 1716959998
     },
     "nonebot-plugin-smart-reply": {
@@ -571,7 +571,7 @@
     },
     "nonebot-plugin-today-in-history": {
         "down7": 1,
-        "down30": 44,
+        "down30": 41,
         "lastup": 1749392529
     },
     "nonebot-plugin-bittorrent": {
@@ -610,7 +610,7 @@
         "lastup": 1672928187
     },
     "nonebot-plugin-osubot": {
-        "down7": 8,
+        "down7": 5,
         "down30": 159,
         "lastup": 1749718846
     },
@@ -621,17 +621,17 @@
     },
     "nonebot-plugin-kawaii-robot": {
         "down7": 0,
-        "down30": 27,
+        "down30": 26,
         "lastup": 1755099887
     },
     "nonebot-plugin-addfriend": {
-        "down7": 2,
-        "down30": 4,
+        "down7": 4,
+        "down30": 6,
         "lastup": 1724065737
     },
     "nonebot-plugin-date-name": {
-        "down7": 1,
-        "down30": 1,
+        "down7": 2,
+        "down30": 3,
         "lastup": 1681549585
     },
     "nonebot-plugin-easycommand": {
@@ -650,7 +650,7 @@
         "lastup": 1659333935
     },
     "nonebot-plugin-mcqq": {
-        "down7": 10,
+        "down7": 4,
         "down30": 31,
         "lastup": 1753013647
     },
@@ -665,12 +665,12 @@
         "lastup": 1669645865
     },
     "nonebot-plugin-groupmanager": {
-        "down7": 5,
+        "down7": 2,
         "down30": 6,
         "lastup": 1661399409
     },
     "nonebot-plugin-game-collection": {
-        "down7": 5,
+        "down7": 4,
         "down30": 14,
         "lastup": 1752165689
     },
@@ -691,7 +691,7 @@
     },
     "nonebot-plugin-pixivbot": {
         "down7": 4,
-        "down30": 194,
+        "down30": 192,
         "lastup": 1737569828
     },
     "nonebot-plugin-workscore": {
@@ -700,8 +700,8 @@
         "lastup": 1694169880
     },
     "nonebot-plugin-treehelp": {
-        "down7": 19,
-        "down30": 283,
+        "down7": 23,
+        "down30": 289,
         "lastup": 1720845702
     },
     "nonebot-plugin-cqsat": {
@@ -715,7 +715,7 @@
         "lastup": 1677402234
     },
     "nonebot-plugin-dialectlist": {
-        "down7": 1,
+        "down7": 0,
         "down30": 18,
         "lastup": 1752166414
     },
@@ -740,7 +740,7 @@
         "lastup": 1661849408
     },
     "nonebot-plugin-cybersensoji": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1661912754
     },
@@ -755,8 +755,8 @@
         "lastup": 1696863459
     },
     "nonebot-plugin-mystool": {
-        "down7": 16,
-        "down30": 73,
+        "down7": 14,
+        "down30": 75,
         "lastup": 1755323102
     },
     "nonebot-plugin-warframe": {
@@ -790,7 +790,7 @@
         "lastup": 1687272773
     },
     "nonebot-plugin-bottle": {
-        "down7": 3,
+        "down7": 0,
         "down30": 14,
         "lastup": 1739803839
     },
@@ -805,13 +805,13 @@
         "lastup": 1664441219
     },
     "nonebot-plugin-picstatus": {
-        "down7": 42,
-        "down30": 201,
+        "down7": 38,
+        "down30": 198,
         "lastup": 1755097349
     },
     "nonebot-plugin-tuling": {
-        "down7": 0,
-        "down30": 0,
+        "down7": 2,
+        "down30": 2,
         "lastup": 1664082879
     },
     "nonebot-plugin-makemidi": {
@@ -861,7 +861,7 @@
     },
     "nonebot-plugin-ayaka-prevent-bad-words": {
         "down7": 0,
-        "down30": 2,
+        "down30": 0,
         "lastup": 1679761034
     },
     "nonebot-plugin-savor": {
@@ -896,7 +896,7 @@
     },
     "nonebot-plugin-mahjong-scoreboard": {
         "down7": 0,
-        "down30": 1,
+        "down30": 0,
         "lastup": 1729355675
     },
     "nonebot-plugin-cartoon": {
@@ -970,7 +970,7 @@
         "lastup": 1672666166
     },
     "nonebot-plugin-trace-moe": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1677135563
     },
@@ -1006,7 +1006,7 @@
     },
     "nonebot-plugin-access-control": {
         "down7": 8,
-        "down30": 97,
+        "down30": 95,
         "lastup": 1737621376
     },
     "nonebot-plugin-colormind": {
@@ -1020,7 +1020,7 @@
         "lastup": 1694653675
     },
     "nonebot-plugin-backup": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1673005376
     },
@@ -1050,8 +1050,8 @@
         "lastup": 1672051972
     },
     "nonebot-plugin-mc-server-status": {
-        "down7": 13,
-        "down30": 41,
+        "down7": 19,
+        "down30": 47,
         "lastup": 1752474567
     },
     "nonebot-plugin-no-repeat": {
@@ -1135,8 +1135,8 @@
         "lastup": 1726801832
     },
     "nonebot-plugin-imgexploration": {
-        "down7": 10,
-        "down30": 27,
+        "down7": 12,
+        "down30": 29,
         "lastup": 1736606883
     },
     "nonebot-plugin-hypixel": {
@@ -1196,17 +1196,17 @@
     },
     "nonebot-plugin-nya-cook-menu": {
         "down7": 0,
-        "down30": 2,
+        "down30": 1,
         "lastup": 1726029988
     },
     "criminal-dance": {
-        "down7": 1,
-        "down30": 1,
+        "down7": 2,
+        "down30": 2,
         "lastup": 1676452997
     },
     "nonebot-plugin-picmcstat": {
-        "down7": 11,
-        "down30": 23,
+        "down7": 10,
+        "down30": 22,
         "lastup": 1755714938
     },
     "nonebot-plugin-wantwords": {
@@ -1215,7 +1215,7 @@
         "lastup": 1674363317
     },
     "nonebot-plugin-pvz": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1677731136
     },
@@ -1231,7 +1231,7 @@
     },
     "nonebot-plugin-easy-group-manager": {
         "down7": 0,
-        "down30": 1,
+        "down30": 0,
         "lastup": 1690286428
     },
     "nonebot-plugin-group-link-guild": {
@@ -1256,7 +1256,7 @@
     },
     "nonebot-plugin-dog": {
         "down7": 0,
-        "down30": 6,
+        "down30": 5,
         "lastup": 1704694505
     },
     "nonebot-plugin-uuid": {
@@ -1265,8 +1265,8 @@
         "lastup": 1675053129
     },
     "nonebot-plugin-naturel-gpt": {
-        "down7": 46,
-        "down30": 49,
+        "down7": 49,
+        "down30": 52,
         "lastup": 1703359154
     },
     "nonebot-plugin-impact": {
@@ -1275,8 +1275,8 @@
         "lastup": 1710945998
     },
     "nonebot-plugin-mcping": {
-        "down7": 8,
-        "down30": 37,
+        "down7": 10,
+        "down30": 39,
         "lastup": 1727862665
     },
     "nonebot-plugin-b23": {
@@ -1285,18 +1285,18 @@
         "lastup": 1730974217
     },
     "nonebot-plugin-autoreply": {
-        "down7": 4,
+        "down7": 0,
         "down30": 117,
         "lastup": 1732252441
     },
     "nonebot-plugin-setu-collection": {
-        "down7": 0,
-        "down30": 19,
+        "down7": 2,
+        "down30": 21,
         "lastup": 1751103061
     },
     "nonebot-plugin-groupmate-waifu": {
-        "down7": 16,
-        "down30": 85,
+        "down7": 24,
+        "down30": 93,
         "lastup": 1752165588
     },
     "nonebot-plugin-jrrp2": {
@@ -1311,7 +1311,7 @@
     },
     "nonebot-plugin-eventmonitor": {
         "down7": 2,
-        "down30": 33,
+        "down30": 25,
         "lastup": 1753454806
     },
     "nonebot-plugin-whateat-pic": {
@@ -1330,12 +1330,12 @@
         "lastup": 1712420238
     },
     "nonebot-plugin-maimai": {
-        "down7": 4,
-        "down30": 10,
+        "down7": 6,
+        "down30": 12,
         "lastup": 1749522167
     },
     "nonebot-plugin-all4one": {
-        "down7": 3,
+        "down7": 0,
         "down30": 63,
         "lastup": 1723387259
     },
@@ -1355,8 +1355,8 @@
         "lastup": 1676463261
     },
     "nonebot-plugin-resolver": {
-        "down7": 11,
-        "down30": 39,
+        "down7": 9,
+        "down30": 43,
         "lastup": 1751367403
     },
     "nonebot-plugin-bing-chat": {
@@ -1365,18 +1365,18 @@
         "lastup": 1681986497
     },
     "nonebot-plugin-send-anything-anywhere": {
-        "down7": 212,
-        "down30": 1865,
+        "down7": 214,
+        "down30": 1836,
         "lastup": 1723903854
     },
     "nonebot-plugin-random-stereotypes": {
-        "down7": 10,
+        "down7": 6,
         "down30": 23,
         "lastup": 1748337463
     },
     "nonebot-plugin-xiuxian-2": {
         "down7": 1,
-        "down30": 17,
+        "down30": 16,
         "lastup": 1683294155
     },
     "nonebot-plugin-h2e": {
@@ -1415,12 +1415,12 @@
         "lastup": 1677588428
     },
     "nonebot-plugin-60s": {
-        "down7": 0,
-        "down30": 2,
+        "down7": 2,
+        "down30": 4,
         "lastup": 1685533110
     },
     "nonebot-plugin-autorepeater": {
-        "down7": 5,
+        "down7": 4,
         "down30": 11,
         "lastup": 1677862327
     },
@@ -1471,7 +1471,7 @@
     },
     "nonebot-plugin-justsix": {
         "down7": 0,
-        "down30": 1,
+        "down30": 0,
         "lastup": 1678701891
     },
     "nonebot-plugin-simulator-xiuxian": {
@@ -1480,7 +1480,7 @@
         "lastup": 1723664068
     },
     "nonebot-plugin-bracket": {
-        "down7": 2,
+        "down7": 0,
         "down30": 12,
         "lastup": 1733232574
     },
@@ -1505,13 +1505,13 @@
         "lastup": 1684716415
     },
     "nonebot-plugin-quote": {
-        "down7": 8,
-        "down30": 70,
+        "down7": 7,
+        "down30": 68,
         "lastup": 1755059493
     },
     "nonebot-plugin-memes-api": {
         "down7": 5,
-        "down30": 68,
+        "down30": 67,
         "lastup": 1744714958
     },
     "nonebot-plugin-rrc": {
@@ -1550,7 +1550,7 @@
         "lastup": 1715683979
     },
     "nonebot-plugin-miao": {
-        "down7": 2,
+        "down7": 0,
         "down30": 11,
         "lastup": 1687270892
     },
@@ -1560,8 +1560,8 @@
         "lastup": 1683101704
     },
     "nonebot-plugin-genshin-cos": {
-        "down7": 2,
-        "down30": 11,
+        "down7": 4,
+        "down30": 13,
         "lastup": 1732939355
     },
     "nonebot-plugin-chatgpt-plus": {
@@ -1580,7 +1580,7 @@
         "lastup": 1687498343
     },
     "nonebot-plugin-today-waifu": {
-        "down7": 16,
+        "down7": 11,
         "down30": 71,
         "lastup": 1748033327
     },
@@ -1605,13 +1605,13 @@
         "lastup": 1755780604
     },
     "nonebot-plugin-bilichat": {
-        "down7": 5,
-        "down30": 183,
+        "down7": 4,
+        "down30": 181,
         "lastup": 1754884103
     },
     "nonebot-plugin-genshinuid": {
-        "down7": 90,
-        "down30": 331,
+        "down7": 84,
+        "down30": 333,
         "lastup": 1748258796
     },
     "nonebot-plugin-blive-danmaku": {
@@ -1621,7 +1621,7 @@
     },
     "nonebot-plugin-clock": {
         "down7": 0,
-        "down30": 1,
+        "down30": 0,
         "lastup": 1684721161
     },
     "nonebot-plugin-sdgpt": {
@@ -1640,8 +1640,8 @@
         "lastup": 1698124420
     },
     "tatarubot2": {
-        "down7": 7,
-        "down30": 26,
+        "down7": 6,
+        "down30": 25,
         "lastup": 1701655340
     },
     "nonebot-plugin-osuverify": {
@@ -1655,7 +1655,7 @@
         "lastup": 1748938986
     },
     "nonebot-plugin-akinator": {
-        "down7": 18,
+        "down7": 17,
         "down30": 99,
         "lastup": 1747038037
     },
@@ -1730,13 +1730,13 @@
         "lastup": 1697121437
     },
     "nonebot-plugin-logpile": {
-        "down7": 52,
-        "down30": 209,
+        "down7": 51,
+        "down30": 217,
         "lastup": 1738826416
     },
     "nonebot-plugin-arkgacha": {
         "down7": 0,
-        "down30": 10,
+        "down30": 8,
         "lastup": 1732347800
     },
     "nonebot-plugin-og": {
@@ -1750,7 +1750,7 @@
         "lastup": 1718465894
     },
     "nonebot-plugin-multincm": {
-        "down7": 8,
+        "down7": 4,
         "down30": 45,
         "lastup": 1752769744
     },
@@ -1770,8 +1770,8 @@
         "lastup": 1684223621
     },
     "nonebot-plugin-session": {
-        "down7": 434,
-        "down30": 3597,
+        "down7": 401,
+        "down30": 3616,
         "lastup": 1722669770
     },
     "nonebot-plugin-pluginupdatecheck": {
@@ -1786,7 +1786,7 @@
     },
     "nonebot-plugin-githubcard": {
         "down7": 0,
-        "down30": 151,
+        "down30": 149,
         "lastup": 1710300368
     },
     "nonebot-plugin-lua": {
@@ -1831,12 +1831,12 @@
     },
     "nonebot-plugin-escape-url": {
         "down7": 2,
-        "down30": 7,
+        "down30": 5,
         "lastup": 1737570935
     },
     "nonebot-plugin-twitter": {
-        "down7": 0,
-        "down30": 2,
+        "down7": 2,
+        "down30": 4,
         "lastup": 1705751384
     },
     "nonebot-plugin-pcrjjc": {
@@ -1870,8 +1870,8 @@
         "lastup": 1687699197
     },
     "nonebot-plugin-userinfo": {
-        "down7": 144,
-        "down30": 511,
+        "down7": 155,
+        "down30": 525,
         "lastup": 1724750497
     },
     "nonebot-plugin-poke": {
@@ -1880,7 +1880,7 @@
         "lastup": 1752920889
     },
     "nonebot-plugin-friends": {
-        "down7": 1,
+        "down7": 0,
         "down30": 4,
         "lastup": 1728701642
     },
@@ -2005,7 +2005,7 @@
         "lastup": 1692523141
     },
     "nonebot-plugin-mcversion": {
-        "down7": 1,
+        "down7": 0,
         "down30": 8,
         "lastup": 1734006817
     },
@@ -2061,7 +2061,7 @@
     },
     "nonebot-plugin-requests": {
         "down7": 0,
-        "down30": 5,
+        "down30": 3,
         "lastup": 1718301991
     },
     "nonebot-plugin-simple-httpcat": {
@@ -2081,7 +2081,7 @@
     },
     "nonebot-plugin-alchelper": {
         "down7": 6,
-        "down30": 15,
+        "down30": 13,
         "lastup": 1735622447
     },
     "nonebot-plugin-souti": {
@@ -2125,8 +2125,8 @@
         "lastup": 1695212937
     },
     "nonebot-plugin-ottohzys": {
-        "down7": 14,
-        "down30": 26,
+        "down7": 13,
+        "down30": 28,
         "lastup": 1747038074
     },
     "nonebot-plugin-ability": {
@@ -2150,7 +2150,7 @@
         "lastup": 1698376968
     },
     "nonebot-plugin-eop-ai": {
-        "down7": 2,
+        "down7": 0,
         "down30": 4,
         "lastup": 1747131900
     },
@@ -2185,13 +2185,13 @@
         "lastup": 1750996516
     },
     "nonebot-plugin-batitle": {
-        "down7": 2,
-        "down30": 13,
+        "down7": 0,
+        "down30": 12,
         "lastup": 1707299421
     },
     "nonebot-plugin-maimaidx": {
-        "down7": 68,
-        "down30": 243,
+        "down7": 67,
+        "down30": 248,
         "lastup": 1755363776
     },
     "nonebot-plugin-getbapics": {
@@ -2230,8 +2230,8 @@
         "lastup": 1708485563
     },
     "nonebot-plugin-user": {
-        "down7": 135,
-        "down30": 1074,
+        "down7": 111,
+        "down30": 1078,
         "lastup": 1755090145
     },
     "nonebot-plugin-shorturl": {
@@ -2255,14 +2255,9 @@
         "lastup": 1731897538
     },
     "nonebot-plugin-batarot": {
-        "down7": 6,
+        "down7": 2,
         "down30": 16,
         "lastup": 1729209232
-    },
-    "nonebot-plugin-cnrail": {
-        "down7": 0,
-        "down30": 7,
-        "lastup": 1728536843
     },
     "nonebot-plugin-longtu": {
         "down7": 2,
@@ -2280,8 +2275,8 @@
         "lastup": 1716902662
     },
     "nonebot-plugin-waiter": {
-        "down7": 1098,
-        "down30": 10190,
+        "down7": 1069,
+        "down30": 10174,
         "lastup": 1737549492
     },
     "nonebot-plugin-imagemaster": {
@@ -2298,11 +2293,6 @@
         "down7": 2,
         "down30": 7,
         "lastup": 1704615630
-    },
-    "nonebot-plugin-pingti": {
-        "down7": 0,
-        "down30": 1,
-        "lastup": 1734082263
     },
     "nonebot-plugin-wx4": {
         "down7": 0,
@@ -2391,7 +2381,7 @@
     },
     "nonebot-plugin-kawaii-status": {
         "down7": 15,
-        "down30": 80,
+        "down30": 78,
         "lastup": 1739084473
     },
     "nonebot-plugin-vits-tts": {
@@ -2515,13 +2505,13 @@
         "lastup": 1739726573
     },
     "nonebot-plugin-helpwithpic": {
-        "down7": 9,
+        "down7": 8,
         "down30": 9,
         "lastup": 1748175280
     },
     "nonebot-plugin-sticker-saver": {
-        "down7": 27,
-        "down30": 83,
+        "down7": 20,
+        "down30": 85,
         "lastup": 1737214235
     },
     "nonebot-plugin-anime-downloader": {
@@ -2555,7 +2545,7 @@
         "lastup": 1715784552
     },
     "nonebot-plugin-kurogames": {
-        "down7": 6,
+        "down7": 5,
         "down30": 31,
         "lastup": 1755346609
     },
@@ -2565,8 +2555,8 @@
         "lastup": 1736091238
     },
     "nonebot-plugin-sparkapi": {
-        "down7": 0,
-        "down30": 1,
+        "down7": 2,
+        "down30": 3,
         "lastup": 1730050898
     },
     "nonebot-plugin-tsugu-bangdream-bot": {
@@ -2576,7 +2566,7 @@
     },
     "nonebot-plugin-calc24": {
         "down7": 2,
-        "down30": 6,
+        "down30": 5,
         "lastup": 1722530084
     },
     "nonebot-plugin-nai3-bot": {
@@ -2590,8 +2580,8 @@
         "lastup": 1716320351
     },
     "nonebot-plugin-authrespond": {
-        "down7": 8,
-        "down30": 21,
+        "down7": 14,
+        "down30": 27,
         "lastup": 1730596295
     },
     "nonebot-plugin-shutdown-hook": {
@@ -2601,7 +2591,7 @@
     },
     "nonebot-plugin-plus-one": {
         "down7": 0,
-        "down30": 25,
+        "down30": 23,
         "lastup": 1716911029
     },
     "nonebot-plugin-aising": {
@@ -2640,7 +2630,7 @@
         "lastup": 1722003888
     },
     "nonebot-plugin-saalc": {
-        "down7": 3,
+        "down7": 0,
         "down30": 16,
         "lastup": 1718123083
     },
@@ -2695,8 +2685,8 @@
         "lastup": 1719485404
     },
     "nonebot-plugin-dcqq-relay": {
-        "down7": 18,
-        "down30": 32,
+        "down7": 12,
+        "down30": 30,
         "lastup": 1755784375
     },
     "nonebot-plugin-ncupdate": {
@@ -2725,7 +2715,7 @@
         "lastup": 1749640057
     },
     "nonebot-plugin-runagain": {
-        "down7": 6,
+        "down7": 4,
         "down30": 23,
         "lastup": 1721048368
     },
@@ -2771,11 +2761,11 @@
     },
     "nonebot-plugin-gpt-sovits": {
         "down7": 0,
-        "down30": 7,
+        "down30": 5,
         "lastup": 1726374466
     },
     "nonebot-plugin-wakatime": {
-        "down7": 27,
+        "down7": 26,
         "down30": 131,
         "lastup": 1754850320
     },
@@ -2790,8 +2780,8 @@
         "lastup": 1746008683
     },
     "nonebot-plugin-deer-pipe": {
-        "down7": 14,
-        "down30": 33,
+        "down7": 16,
+        "down30": 31,
         "lastup": 1739173292
     },
     "nonebot-plugin-alist": {
@@ -2820,7 +2810,7 @@
         "lastup": 1734653262
     },
     "pokepoke-miss": {
-        "down7": 1,
+        "down7": 0,
         "down30": 21,
         "lastup": 1723741700
     },
@@ -2841,7 +2831,7 @@
     },
     "nonebot-plugin-looklike": {
         "down7": 0,
-        "down30": 3,
+        "down30": 2,
         "lastup": 1724767388
     },
     "nonebot-plugin-wait-a-minute": {
@@ -2851,12 +2841,12 @@
     },
     "nonebot-plugin-repesix": {
         "down7": 2,
-        "down30": 10,
+        "down30": 8,
         "lastup": 1746362878
     },
     "nonebot-plugin-liteyukibot": {
         "down7": 0,
-        "down30": 7,
+        "down30": 3,
         "lastup": 1724293127
     },
     "nonebot-plugin-mute": {
@@ -2865,13 +2855,13 @@
         "lastup": 1723968464
     },
     "nekro-agent": {
-        "down7": 45,
+        "down7": 35,
         "down30": 123,
         "lastup": 1755945121
     },
     "nonebot-plugin-lagrange": {
-        "down7": 0,
-        "down30": 9,
+        "down7": 2,
+        "down30": 11,
         "lastup": 1738296938
     },
     "nonebot-plugin-mccheck": {
@@ -2896,7 +2886,7 @@
     },
     "nonebot-plugin-tea-silencer": {
         "down7": 0,
-        "down30": 5,
+        "down30": 3,
         "lastup": 1724902633
     },
     "nonebot-plugin-avalon": {
@@ -2905,7 +2895,7 @@
         "lastup": 1726236540
     },
     "nonebot-plugin-werewolf": {
-        "down7": 4,
+        "down7": 2,
         "down30": 42,
         "lastup": 1749025878
     },
@@ -2940,13 +2930,13 @@
         "lastup": 1726571418
     },
     "nonebot-plugin-uninfo": {
-        "down7": 598,
-        "down30": 3868,
+        "down7": 572,
+        "down30": 3885,
         "lastup": 1753710042
     },
     "nonebot-plugin-inspect": {
-        "down7": 5,
-        "down30": 190,
+        "down7": 9,
+        "down30": 194,
         "lastup": 1728119586
     },
     "nonebot-plugin-batch-withdrawal": {
@@ -3000,7 +2990,7 @@
         "lastup": 1728663060
     },
     "nonebot-plugin-marshoai": {
-        "down7": 2,
+        "down7": 0,
         "down30": 22,
         "lastup": 1755354585
     },
@@ -3040,7 +3030,7 @@
         "lastup": 1728802607
     },
     "nonebot-plugin-safer18": {
-        "down7": 1,
+        "down7": 0,
         "down30": 1,
         "lastup": 1747309773
     },
@@ -3061,7 +3051,7 @@
     },
     "nonebot-plugin-zxreport": {
         "down7": 0,
-        "down30": 6,
+        "down30": 4,
         "lastup": 1737024957
     },
     "nonebot-plugin-buy": {
@@ -3070,12 +3060,12 @@
         "lastup": 1730056119
     },
     "nonebot-plugin-nailongremove": {
-        "down7": 2,
+        "down7": 0,
         "down30": 49,
         "lastup": 1751217564
     },
     "nonebot-plugin-pmhelp": {
-        "down7": 2,
+        "down7": 1,
         "down30": 8,
         "lastup": 1747553952
     },
@@ -3105,7 +3095,7 @@
         "lastup": 1729433878
     },
     "nonebot-plugin-voicemusic": {
-        "down7": 2,
+        "down7": 0,
         "down30": 7,
         "lastup": 1734612177
     },
@@ -3145,8 +3135,8 @@
         "lastup": 1734327760
     },
     "nonebot-plugin-pong": {
-        "down7": 0,
-        "down30": 4,
+        "down7": 2,
+        "down30": 6,
         "lastup": 1729927492
     },
     "nonebot-plugin-partner-join": {
@@ -3161,7 +3151,7 @@
     },
     "nonebot-plugin-impart": {
         "down7": 0,
-        "down30": 5,
+        "down30": 3,
         "lastup": 1730956645
     },
     "nonebot-plugin-wife": {
@@ -3171,7 +3161,7 @@
     },
     "nonebot-plugin-comfyui": {
         "down7": 4,
-        "down30": 15,
+        "down30": 13,
         "lastup": 1742556455
     },
     "nonebot-plugin-omb": {
@@ -3205,8 +3195,8 @@
         "lastup": 1736244000
     },
     "nonebot-plugin-auto-sendlike": {
-        "down7": 15,
-        "down30": 56,
+        "down7": 19,
+        "down30": 60,
         "lastup": 1748610634
     },
     "nonebot-plugin-kindness-lesson": {
@@ -3215,8 +3205,8 @@
         "lastup": 1731816479
     },
     "nonebot-plugin-manageweb": {
-        "down7": 4,
-        "down30": 18,
+        "down7": 5,
+        "down30": 20,
         "lastup": 1747553781
     },
     "nonebot-plugin-api-scheduler": {
@@ -3245,13 +3235,13 @@
         "lastup": 1733101818
     },
     "nonebot-plugin-resolver2": {
-        "down7": 73,
+        "down7": 66,
         "down30": 354,
-        "lastup": 1755781186
+        "lastup": 1756100629
     },
     "nonebot-plugin-water-geoup-stats": {
         "down7": 2,
-        "down30": 7,
+        "down30": 5,
         "lastup": 1733390592
     },
     "nonebot-plugin-pcr-sign": {
@@ -3260,7 +3250,7 @@
         "lastup": 1745046434
     },
     "nonebot-plugin-emojilike": {
-        "down7": 1,
+        "down7": 0,
         "down30": 35,
         "lastup": 1744023751
     },
@@ -3305,13 +3295,13 @@
         "lastup": 1735702992
     },
     "nonebot-plugin-add-friends": {
-        "down7": 8,
-        "down30": 32,
+        "down7": 14,
+        "down30": 36,
         "lastup": 1741924306
     },
     "nonebot-plugin-addons-manager": {
         "down7": 0,
-        "down30": 2,
+        "down30": 1,
         "lastup": 1734838589
     },
     "nonebot-plugin-flo-luck": {
@@ -3320,13 +3310,13 @@
         "lastup": 1753272425
     },
     "nonebot-plugin-auto-enter-group": {
-        "down7": 10,
-        "down30": 16,
+        "down7": 16,
+        "down30": 19,
         "lastup": 1743058532
     },
     "nonebot-plugin-prometheus": {
-        "down7": 41,
-        "down30": 565,
+        "down7": 45,
+        "down30": 527,
         "lastup": 1754279232
     },
     "nonebot-plugin-pjsekaihelper": {
@@ -3340,8 +3330,8 @@
         "lastup": 1742965459
     },
     "nonebot-plugin-zxui": {
-        "down7": 2,
-        "down30": 59,
+        "down7": 6,
+        "down30": 63,
         "lastup": 1741441533
     },
     "nonebot-plugin-whats-talk-gemini": {
@@ -3371,7 +3361,7 @@
     },
     "nonebot-plugin-apod": {
         "down7": 2,
-        "down30": 10,
+        "down30": 8,
         "lastup": 1746538463
     },
     "nonebot-plugin-envious": {
@@ -3385,8 +3375,8 @@
         "lastup": 1736089898
     },
     "nonebot-plugin-summary-group": {
-        "down7": 7,
-        "down30": 37,
+        "down7": 4,
+        "down30": 35,
         "lastup": 1754367518
     },
     "nonebot-plugin-palworld": {
@@ -3400,7 +3390,7 @@
         "lastup": 1739199248
     },
     "nonebot-plugin-pictranslator": {
-        "down7": 1,
+        "down7": 0,
         "down30": 12,
         "lastup": 1755266428
     },
@@ -3410,8 +3400,8 @@
         "lastup": 1755686653
     },
     "nonebot-plugin-neuro-draw": {
-        "down7": 4,
-        "down30": 31,
+        "down7": 5,
+        "down30": 33,
         "lastup": 1737456806
     },
     "nonebot-plugin-remind": {
@@ -3421,7 +3411,7 @@
     },
     "nonebot-plugin-joke": {
         "down7": 2,
-        "down30": 6,
+        "down30": 5,
         "lastup": 1737822898
     },
     "nonebot-plugin-group-file-admin": {
@@ -3430,8 +3420,8 @@
         "lastup": 1737796565
     },
     "nonebot-plugin-deepseek": {
-        "down7": 17,
-        "down30": 306,
+        "down7": 15,
+        "down30": 308,
         "lastup": 1751987378
     },
     "nonebot-plugin-bot-tap": {
@@ -3455,8 +3445,8 @@
         "lastup": 1744468834
     },
     "nonebot-plugin-suggarchat": {
-        "down7": 268,
-        "down30": 730,
+        "down7": 211,
+        "down30": 736,
         "lastup": 1755960909
     },
     "nonebot-plugin-nbnhhsh-q": {
@@ -3465,7 +3455,7 @@
         "lastup": 1739681808
     },
     "nonebot-plugin-llmchat": {
-        "down7": 18,
+        "down7": 14,
         "down30": 73,
         "lastup": 1755665338
     },
@@ -3485,8 +3475,8 @@
         "lastup": 1743698728
     },
     "nonebot-plugin-aitalk": {
-        "down7": 14,
-        "down30": 32,
+        "down7": 10,
+        "down30": 34,
         "lastup": 1755244677
     },
     "nonebot-plugin-timed-nickname-updater": {
@@ -3495,8 +3485,8 @@
         "lastup": 1740568128
     },
     "nonebot-plugin-meme-stickers": {
-        "down7": 5,
-        "down30": 82,
+        "down7": 4,
+        "down30": 81,
         "lastup": 1747037511
     },
     "nonebot-plugin-whois": {
@@ -3510,7 +3500,7 @@
         "lastup": 1740844087
     },
     "nonebot-plugin-binsearch": {
-        "down7": 19,
+        "down7": 16,
         "down30": 33,
         "lastup": 1755877882
     },
@@ -3520,7 +3510,7 @@
         "lastup": 1741067080
     },
     "nonebot-plugin-random-reply": {
-        "down7": 8,
+        "down7": 3,
         "down30": 44,
         "lastup": 1753261260
     },
@@ -3540,7 +3530,7 @@
         "lastup": 1742048627
     },
     "nonebot-plugin-suggarex-cf": {
-        "down7": 71,
+        "down7": 44,
         "down30": 180,
         "lastup": 1754616700
     },
@@ -3565,7 +3555,7 @@
         "lastup": 1750172878
     },
     "nonebot-plugin-moellmchats": {
-        "down7": 6,
+        "down7": 5,
         "down30": 41,
         "lastup": 1750571838
     },
@@ -3580,13 +3570,13 @@
         "lastup": 1753675041
     },
     "nonebot-plugin-zssm": {
-        "down7": 13,
-        "down30": 240,
+        "down7": 17,
+        "down30": 244,
         "lastup": 1748962075
     },
     "nonebot-plugin-gemini-vision": {
-        "down7": 4,
-        "down30": 8,
+        "down7": 2,
+        "down30": 10,
         "lastup": 1743596314
     },
     "nonebot-plugin-oi-helper": {
@@ -3595,7 +3585,7 @@
         "lastup": 1751809526
     },
     "nonebot-plugin-mclib": {
-        "down7": 5,
+        "down7": 2,
         "down30": 15,
         "lastup": 1746109446
     },
@@ -3616,7 +3606,7 @@
     },
     "nonebot-plugin-asmr100": {
         "down7": 2,
-        "down30": 7,
+        "down30": 5,
         "lastup": 1748325073
     },
     "nonebot-plugin-skland": {
@@ -3625,7 +3615,7 @@
         "lastup": 1754374307
     },
     "nonebot-plugin-argot": {
-        "down7": 31,
+        "down7": 29,
         "down30": 271,
         "lastup": 1754366668
     },
@@ -3640,7 +3630,7 @@
         "lastup": 1744533150
     },
     "nonebot-plugin-tieba-monitor": {
-        "down7": 1,
+        "down7": 0,
         "down30": 8,
         "lastup": 1746850542
     },
@@ -3655,7 +3645,7 @@
         "lastup": 1744824165
     },
     "nonebot-plugin-mcmod": {
-        "down7": 8,
+        "down7": 6,
         "down30": 29,
         "lastup": 1745317169
     },
@@ -3700,7 +3690,7 @@
         "lastup": 1748481384
     },
     "nonebot-plugin-ciku": {
-        "down7": 4,
+        "down7": 3,
         "down30": 17,
         "lastup": 1749642566
     },
@@ -3725,43 +3715,43 @@
         "lastup": 1746410051
     },
     "nonebot-plugin-qqdetail": {
-        "down7": 3,
+        "down7": 0,
         "down30": 11,
         "lastup": 1746880249
     },
     "nonebot-plugin-multi-source-daily": {
-        "down7": 16,
-        "down30": 40,
+        "down7": 12,
+        "down30": 38,
         "lastup": 1749079060
     },
     "nonebot-plugin-fix-qq-img-ssl": {
-        "down7": 2,
+        "down7": 0,
         "down30": 3,
         "lastup": 1747387567
     },
     "nonebot-plugin-farm": {
-        "down7": 7,
-        "down30": 15,
+        "down7": 6,
+        "down30": 17,
         "lastup": 1751228752
     },
     "nonebot-plugin-ehentai": {
-        "down7": 1,
+        "down7": 0,
         "down30": 6,
         "lastup": 1746935718
     },
     "nonebot-plugin-picmenu-next": {
-        "down7": 20,
-        "down30": 79,
+        "down7": 13,
+        "down30": 73,
         "lastup": 1755093747
     },
     "nonebot-plugin-nyaturingtest": {
-        "down7": 8,
+        "down7": 0,
         "down30": 25,
         "lastup": 1747499745
     },
     "nonebot-plugin-clovers": {
-        "down7": 15,
-        "down30": 66,
+        "down7": 23,
+        "down30": 75,
         "lastup": 1751817717
     },
     "nonebot-plugin-pokemonle": {
@@ -3775,7 +3765,7 @@
         "lastup": 1748427495
     },
     "nonebot-plugin-emojilike-automonkey": {
-        "down7": 1,
+        "down7": 0,
         "down30": 4,
         "lastup": 1747487888
     },
@@ -3786,11 +3776,11 @@
     },
     "nonebot-plugin-hacker-news": {
         "down7": 4,
-        "down30": 6,
+        "down30": 5,
         "lastup": 1748872088
     },
     "nonebot-plugin-limiter": {
-        "down7": 19,
+        "down7": 18,
         "down30": 271,
         "lastup": 1754336335
     },
@@ -3810,13 +3800,13 @@
         "lastup": 1750060702
     },
     "nonebot-plugin-binance": {
-        "down7": 5,
-        "down30": 6,
+        "down7": 7,
+        "down30": 8,
         "lastup": 1750680860
     },
     "nonebot-plugin-orm": {
-        "down7": 792,
-        "down30": 5543,
+        "down7": 681,
+        "down30": 5544,
         "lastup": 1752340426
     },
     "nonebot-plugin-exdi": {
@@ -3826,7 +3816,7 @@
     },
     "nonebot-plugin-xibao": {
         "down7": 4,
-        "down30": 24,
+        "down30": 22,
         "lastup": 1751698154
     },
     "nonebot-plugin-vv": {
@@ -3835,18 +3825,18 @@
         "lastup": 1751299230
     },
     "nonebot-plugin-deltaforce-simulator": {
-        "down7": 18,
+        "down7": 17,
         "down30": 35,
         "lastup": 1751206856
     },
     "nonebot-plugin-liteperm": {
-        "down7": 2,
-        "down30": 4,
+        "down7": 4,
+        "down30": 6,
         "lastup": 1752149301
     },
     "nonebot-plugin-lazytea": {
-        "down7": 16,
-        "down30": 90,
+        "down7": 19,
+        "down30": 91,
         "lastup": 1753767337
     },
     "nonebot-plugin-flomic": {
@@ -3870,7 +3860,7 @@
         "lastup": 1753589959
     },
     "nonebot-plugin-delta-helper": {
-        "down7": 29,
+        "down7": 28,
         "down30": 278,
         "lastup": 1755075832
     },
@@ -3886,7 +3876,7 @@
     },
     "nonebot-plugin-nmcweather": {
         "down7": 0,
-        "down30": 52,
+        "down30": 26,
         "lastup": 1753865232
     },
     "nonebot-plugin-fuckfinalshell": {
@@ -3905,18 +3895,23 @@
         "lastup": 1754798065
     },
     "nonebot-plugin-alisten": {
-        "down7": 36,
-        "down30": 109,
+        "down7": 41,
+        "down30": 114,
         "lastup": 1755933317
     },
     "nonebot-plugin-simple-setu": {
-        "down7": 32,
-        "down30": 185,
+        "down7": 31,
+        "down30": 141,
         "lastup": 1755486226
     },
     "nonebot-plugin-anipusher": {
         "down7": 22,
         "down30": 50,
         "lastup": 1755613104
+    },
+    "nonebot-plugin-huaer-bot": {
+        "down7": 12,
+        "down30": 62,
+        "lastup": 1755684761
     }
 }
